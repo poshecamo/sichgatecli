@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="sichgate",
-    version="0.1.0",
+    version="0.2.0",
     author="SichGate CLI",
     description="AI security auditing tool for startups",
     packages=find_packages(),
