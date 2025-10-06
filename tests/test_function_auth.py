@@ -3,6 +3,11 @@ import json
 from openai import OpenAI
 
 
+import os
+import json
+from openai import OpenAI
+
+
 from typing import List, Dict
 import sqlite3
 
