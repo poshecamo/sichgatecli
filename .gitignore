@@ -1,21 +1,10 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -23,16 +12,13 @@ wheels/
 # Virtual environments
 venv/
 env/
-ENV/
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 
 # Testing
-/tests
 .pytest_cache/
 .coverage
 htmlcov/
@@ -41,32 +27,9 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-
-
-cat >> .gitignore << 'EOF'
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-__pycache__/
-*.pyc
-*.pyo
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-
-# Node modules (if any)
-node_modules/
-
-# Environment
-venv/
-env/
-EOF
+# Node 
 node_modules/
 package-lock.json
 pnpm-lock.yaml
+
+

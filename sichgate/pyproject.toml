@@ -1,20 +1,16 @@
-# ============================================================
-# pyproject.toml
-# ============================================================
-"""
 [build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "sichgate"
-version = "0.1.0"
-description = "AI security auditing tool for startups"
+version = "0.2.0"
+description = "Advanced AI security auditing for startups"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Polina Moshenets @ SichGate Team", email = "polina@sichgate.com"}
+    {name = "Polina Moshenets", email = "polina@sichgate.com"}
 ]
 keywords = ["security", "ai", "llm", "audit", "pentesting"]
 classifiers = [
@@ -33,7 +29,5 @@ dev = ["pytest>=7.0.0", "black>=23.0.0", "flake8>=6.0.0"]
 sichgate = "sichgate.cli:main"
 
 [project.urls]
-Homepage = "https://sichgate.dev"
-Documentation = "https://sichgate.dev/docs"
+Homepage = "https://sichgate.com"
 Repository = "https://github.com/poshecamo/sichgatecli"
-"""
