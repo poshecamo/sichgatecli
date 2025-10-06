@@ -35,5 +35,5 @@ sichgate = "sichgate.cli:main"
 [project.urls]
 Homepage = "https://sichgate.dev"
 Documentation = "https://sichgate.dev/docs"
-Repository = "https://github.com/yourusername/sichgate"
+Repository = "https://github.com/poshecamo/sichgatecli"
 """

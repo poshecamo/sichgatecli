@@ -142,7 +142,7 @@ Identifies risks where users can poison conversation history or system context.
 We're actively developing and welcome contributions:
 
 ```bash
-git clone https://github.com/yourusername/sichgate
+git clone https://github.com/poshecamo/sichgatecli
 cd sichgate
 pip install -e .[dev]
 pytest
@@ -171,9 +171,9 @@ MIT License
 
 ## Support
 
-- Documentation: https://sichgate.dev/docs
-- Report Issues: https://github.com/yourusername/sichgate/issues
-- Security Contact: security@sichgate.dev
+- Documentation: https://sichgate.com
+- Report Issues: https://github.com/poshecamo/sichgatecli
+- Security Contact: polina@sichgate.com
 
 Made with ❤️ for the startup community.
 
