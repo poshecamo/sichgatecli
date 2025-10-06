@@ -1,0 +1,8 @@
+# Save the code as sichgate.py
+python sichgate.py audit
+
+# Scan a specific directory
+python sichgate.py audit --target /path/to/project
+
+# Run without Pytector (faster, no ML)
+python sichgate.py audit --lite
