@@ -39,3 +39,30 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+
+
+cat >> .gitignore << 'EOF'
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Node modules (if any)
+node_modules/
+
+# Environment
+venv/
+env/
+EOF
