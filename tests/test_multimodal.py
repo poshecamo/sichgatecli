@@ -1,3 +1,9 @@
+import os
+import base64
+from openai import OpenAI
+from PIL import Image
+
+
 import base64
 from PIL import Image
 
